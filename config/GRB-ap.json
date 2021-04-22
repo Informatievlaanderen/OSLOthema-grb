@@ -2,7 +2,7 @@
 {
   "name": "GRB-ap",
   "type": "ap",
-  "eap": "GRB-ap.eapx",
+  "eap": "GRB-ap.eap",
   "diagram": "GRB-Kunstwerk",
   "template": "GRB-ap.j2",
   "title": "GRB-Kunstwerk",
