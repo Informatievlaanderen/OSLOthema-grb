@@ -2,7 +2,7 @@
 {
   "name": "GRB-ap",
   "type": "ap",
-  "eap": "GRB.eapx",
+  "eap": "GRB.eap",
   "diagram": "POC Dwight",
   "template": "mijn-applicatieprofiel-ap.j2",
   "title": "GRB Kunstwerk",
