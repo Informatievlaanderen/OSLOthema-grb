@@ -1,6 +1,6 @@
 [
 {
-  "name": "OSLO-GRB-ap",
+  "name": "GRB-applicatieprofiel",
   "type": "ap",
   "eap": "OSLO-GRB-AP.eap",
   "diagram": "GRB-applicatieprofiel",
