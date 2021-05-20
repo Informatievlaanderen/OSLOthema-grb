@@ -5,7 +5,7 @@
   "eap": "GRB-applicatieprofiel.eap",
   "diagram": "GRB Model",
   "template": "GRB-applicatieprofiel.j2",
-  "title": "GRB Applicatieprofiel",
+  "title": "GRB-Applicatieprofiel",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2021-05-20",
   "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
