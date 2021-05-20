@@ -1,6 +1,6 @@
 [
 {
-  "name": "GRB-applicatieprofiel",
+  "name": "GRB-ap",
   "type": "ap",
   "eap": "GRB-applicatieprofiel.eap",
   "diagram": "GRB-applicatieprofiel",
