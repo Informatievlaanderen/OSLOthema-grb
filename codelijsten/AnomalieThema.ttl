@@ -1,0 +1,114 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/AnomalieThema>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "Het thema van de anomalie."@nl ;
+   skos:prefLabel "AnomalieThema"@nl .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/NietGekend>
+   a skos:Concept ;
+   skos:prefLabel "Niet gekend"@nl ;
+   skos:definition "Niet gekend door aanpassing van de GRB specificaties."@nl ;
+   skos:notation "Niet gekend"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Perceel>
+   a skos:Concept ;
+   skos:prefLabel "Perceel"@nl ;
+   skos:definition "De anomalie heeft te maken met het perceel."@nl ;
+   skos:notation "Perceel"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Gebouw>
+   a skos:Concept ;
+   skos:prefLabel "Gebouw of gebouwaanhorigheid"@nl ;
+   skos:definition "De anomalie heeft te maken met het gebouw of een gebouwaanhorigheid."@nl ;
+   skos:notation "Gebouw of gebouwaanhorigheid"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Kunstwerk>
+   a skos:Concept ;
+   skos:prefLabel "Kunstwerk of technische constructie"@nl ;
+   skos:definition "De anomalie heeft te maken met een kunstwerk of technische constructie."@nl ;
+   skos:notation "Kunstwerk of technische constructie"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Spoor>
+   a skos:Concept ;
+   skos:prefLabel "Spoor"@nl ;
+   skos:definition "De anomalie heeft te maken met een spoor."@nl ;
+   skos:notation "Spoor"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Terrein>
+   a skos:Concept ;
+   skos:prefLabel "(Openbaar) Terrein"@nl ;
+   skos:definition "De anomalie heeft te maken met een al dan niet openbaar, terrein."@nl ;
+   skos:notation "(Openbaar) Terrein"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Weginrichting>
+   a skos:Concept ;
+   skos:prefLabel "Weginrichting"@nl ;
+   skos:definition "De anomalie heeft te maken met een wegrinrichting."@nl ;
+   skos:notation "Weginrichting"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Water>
+   a skos:Concept ;
+   skos:prefLabel "Water"@nl ;
+   skos:definition "De anomalie heeft te maken met water."@nl ;
+   skos:notation "Water"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/WaterloopAs>
+   a skos:Concept ;
+   skos:prefLabel "As van de waterloop"@nl ;
+   skos:definition "De anomalie heeft te maken met de as van de waterloop."@nl ;
+   skos:notation "As van de waterloop"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/WegAs>
+   a skos:Concept ;
+   skos:prefLabel "As van de Weg"@nl ;
+   skos:definition "De anomalie heeft te maken met de as van de weg."@nl ;
+   skos:notation "As van de weg"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/VolledigeWeg>
+   a skos:Concept ;
+   skos:prefLabel "Volledige Weg"@nl ;
+   skos:definition "De anomalie heeft te maken met de volledige weg."@nl ;
+   skos:notation "Volledige weg"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Straatnaam>
+   a skos:Concept ;
+   skos:prefLabel "Straatnaam"@nl ;
+   skos:definition "De anomalie heeft te maken met de straatnaam."@nl ;
+   skos:notation "Straatnaam"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieThema/Adres>
+   a skos:Concept ;
+   skos:prefLabel "Adres"@nl ;
+   skos:definition "De anomalie heeft te maken met het adres."@nl ;
+   skos:notation "Adres"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .

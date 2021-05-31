@@ -1,0 +1,34 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "Het As-Builtplan van de anomalie."@nl ;
+   skos:prefLabel "As-Builtplan"@nl .
+
+<https://data.vlaanderen.be/id/concept/AsBuiltplan/AsBuiltplan>
+   a skos:Concept ;
+   skos:prefLabel "As-Buitplan"@nl ;
+   skos:definition "De anomalie heeft een as-builtplan."@nl ;
+   skos:notation "As-Builtplan"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> .
+
+<https://data.vlaanderen.be/id/concept/AsBuiltplan/GeenAsBuiltplan>
+   a skos:Concept ;
+   skos:prefLabel "Geen As-Builtplan"@nl ;
+   skos:definition "De anomalie heeft geen As-Builtplan."@nl ;
+   skos:notation "Geen As-Builtplan"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> .
+
+  <https://data.vlaanderen.be/id/concept/AsBuiltplan/NietGekend>
+   a skos:Concept ;
+   skos:prefLabel "Niet gekend"@nl ;
+   skos:definition "Men weet niet of de anomalie al dan niet een As-Builtplan heeft."@nl ;
+   skos:notation "Niet gekend"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> .

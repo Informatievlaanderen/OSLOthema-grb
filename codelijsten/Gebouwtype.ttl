@@ -1,0 +1,34 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Gebouwtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van het gebouw aan de grond."@nl ;
+   skos:prefLabel "Gebouwtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Gebouwtype/hoofdgebouw>
+   a skos:Concept ;
+   skos:prefLabel "Hoofdgebouw"@nl ;
+   skos:definition "Het gebouw is een hoofdgebouw."@nl ;
+   skos:notation "Hoofdgebouw"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .
+
+<https://data.vlaanderen.be/id/concept/Gebouwtype/Bijgebouw>
+   a skos:Concept ;
+   skos:prefLabel "Bijgebouw"@nl ;
+   skos:definition "Het gebouw is een bijgebouw."@nl ;
+   skos:notation "Bijgebouw"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwtype/GebouwVirtueleGevels>
+   a skos:Concept ;
+   skos:prefLabel "Gebouw afgezoomd met virtuele gevels"@nl ;
+   skos:definition "Het is een gebouw afgezoomd met virtuele gevels."@nl ;
+   skos:notation "Gebouw afgezoomd met virtuele gevels"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .

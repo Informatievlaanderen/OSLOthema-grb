@@ -1,0 +1,26 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De Status van de anomalie."@nl ;
+   skos:prefLabel "AnomalieStatus"@nl .
+
+<https://data.vlaanderen.be/id/concept/AnomalieStatus/Gevalideerd>
+   a skos:Concept ;
+   skos:prefLabel "Gevalideerd"@nl ;
+   skos:definition "De anomalie is gevalideerd."@nl ;
+   skos:notation "Gevalideerd"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieStatus/Toegewezen>
+   a skos:Concept ;
+   skos:prefLabel "Toegewezen"@nl ;
+   skos:definition "De anomalie is toegewezen."@nl ;
+   skos:notation "Toegewezen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .
