@@ -9,7 +9,7 @@
    skos:definition "De oorzaak van de anomalie."@nl ;
    skos:prefLabel "AnomalieOorzaak"@nl .
 
-<https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak/Nietgekend>
+<https://data.vlaanderen.be/id/concept/AnomalieOorzaak/Nietgekend>
    a skos:Concept ;
    skos:prefLabel "Niet gekend"@nl ;
    skos:definition "Niet gekend door aanpassing van de GRB specificaties."@nl ;
@@ -17,7 +17,7 @@
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> .
 
-<https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak/NieuwOntbrekend>
+<https://data.vlaanderen.be/id/concept/AnomalieOorzaak/NieuwOntbrekend>
    a skos:Concept ;
    skos:prefLabel "Nieuw/Ontbrekend"@nl ;
    skos:definition "Nieuw of ontbrekend"@nl ;
@@ -25,7 +25,7 @@
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> .
 
-<https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak/FoutiefAttribuut>
+<https://data.vlaanderen.be/id/concept/AnomalieOorzaak/FoutiefAttribuut>
    a skos:Concept ;
    skos:prefLabel "Gewijzigd/foutief attribuut"@nl ;
    skos:definition "Gewijzigd of foutief attribuut."@nl ;
@@ -33,7 +33,7 @@
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> .
 
-<https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak/FoutieveGeometrie>
+<https://data.vlaanderen.be/id/concept/AnomalieOorzaak/FoutieveGeometrie>
    a skos:Concept ;
    skos:prefLabel "Gewijzigd/foutieve geomtrie"@nl ;
    skos:definition "Gewijzigd of foutieve geoemtrie."@nl ;
@@ -41,7 +41,7 @@
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> .
 
-<https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak/FoutiefAttribuutEnGeometrie>
+<https://data.vlaanderen.be/id/concept/AnomalieOorzaak/FoutiefAttribuutEnGeometrie>
    a skos:Concept ;
    skos:prefLabel "Gewijzigd of foutief attribuut en geometrie"@nl ;
    skos:definition "Gewijzigd of foutief attribuut en geometrie."@nl ;
@@ -49,7 +49,7 @@
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> .
 
-<https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak/Verwijderd>
+<https://data.vlaanderen.be/id/concept/AnomalieOorzaak/Verwijderd>
    a skos:Concept ;
    skos:prefLabel "Verwijderd of overbodig"@nl ;
    skos:definition "Verwijderd of overbodig."@nl ;
