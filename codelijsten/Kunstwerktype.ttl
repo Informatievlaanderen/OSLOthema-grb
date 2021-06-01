@@ -1,0 +1,146 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van het kunstwerk."@nl ;
+   skos:prefLabel "Kunstwerktype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Overbrugging>
+   a skos:Concept ;
+   skos:prefLabel "Overbrugging"@nl ;
+   skos:definition "Het kunstwerk is een overbrugging."@nl ;
+   skos:notation "Overbrugging"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/WaterbouwkundigeConstructie>
+   a skos:Concept ;
+   skos:prefLabel "Waterbouwkundige Constructie"@nl ;
+   skos:definition "Het kunstwerk is een waterbouwkundige constructie."@nl ;
+   skos:notation "Waterbouwkundige Constructie"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/CultuurhistorischMonument>
+   a skos:Concept ;
+   skos:prefLabel "Cultuurhistorisch Monument"@nl ;
+   skos:definition "Het kunstwerk is een cultuurhistorisch monument."@nl ;
+   skos:notation "Cultuurhistorisch Monument"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Hoogspanningsmast>
+   a skos:Concept ;
+   skos:prefLabel "Hoogspanningsmast of openbare TV-mast"@nl ;
+   skos:definition "Het kunstwerk is een hoogspanningmast of openbare TV-mast."@nl ;
+   skos:notation "Hoogspanningsmast of openbare TV-mast"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Pijler>
+   a skos:Concept ;
+   skos:prefLabel "Pijler"@nl ;
+   skos:definition "Het kunstwerk is een pijler."@nl ;
+   skos:notation "Pijler"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Rooster>
+   a skos:Concept ;
+   skos:prefLabel "Rooster"@nl ;
+   skos:definition "Het kunstwerk is een rooster."@nl ;
+   skos:notation "Roosters"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Schoorsteen>
+   a skos:Concept ;
+   skos:prefLabel "Schoorsteen"@nl ;
+   skos:definition "Het kunstwerk is een schoorsteen."@nl ;
+   skos:notation "Schoorsteen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Koeltoren>
+   a skos:Concept ;
+   skos:prefLabel "Koeltoren"@nl ;
+   skos:definition "Het kunstwerk is een koeltoren."@nl ;
+   skos:notation "Koeltoren"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Silo>
+   a skos:Concept ;
+   skos:prefLabel "Silo of Opslagtank"@nl ;
+   skos:definition "Het kunstwerk is een silo of opslagtank."@nl ;
+   skos:notation "Silo of Opslagtank"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Cabine>
+   a skos:Concept ;
+   skos:prefLabel "Cabine"@nl ;
+   skos:definition "Het kunstwerk is een cabine."@nl ;
+   skos:notation "Cabine"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Watertoren>
+   a skos:Concept ;
+   skos:prefLabel "Watertoren"@nl ;
+   skos:definition "Het kunstwerk is een watertoren."@nl ;
+   skos:notation "Watertoren"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Tunnelmond>
+   a skos:Concept ;
+   skos:prefLabel "Tunnelmond"@nl ;
+   skos:definition "Het kunstwerk is een tunnelmond."@nl ;
+   skos:notation "Tunnelmond"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/ChemischeInstallatie>
+   a skos:Concept ;
+   skos:prefLabel "Chemische Installatie"@nl ;
+   skos:definition "Het kunstwerk is een chemische installatie."@nl ;
+   skos:notation "Chemische Installatie"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Windturbine>
+   a skos:Concept ;
+   skos:prefLabel "Nutspaal type windturbine"@nl ;
+   skos:definition "Het kunstwerk is een nutspaal van het type windturbine."@nl ;
+   skos:notation "Nutspaal type windturbine"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Golfbreker>
+   a skos:Concept ;
+   skos:prefLabel "Golfbreker, strandhoofd of lage havendam"@nl ;
+   skos:definition "Het kunstwerk is een golfbreker, strandhoofd of lage havendam."@nl ;
+   skos:notation "Golfbreker, strandhoofd of lage havendam"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Havendam>
+   a skos:Concept ;
+   skos:prefLabel "Havendam"@nl ;
+   skos:definition "Het kunstwerk is een havendam."@nl ;
+   skos:notation "Havendam"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
+
+<https://data.vlaanderen.be/id/concept/Kunstwerktype/Staketsel>
+   a skos:Concept ;
+   skos:prefLabel "Staketsel"@nl ;
+   skos:definition "Het kunstwerk is een staketsel."@nl ;
+   skos:notation "Staketsel"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .

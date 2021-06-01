@@ -1,0 +1,74 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van het de gebouwaanhorigheid."@nl ;
+   skos:prefLabel "Gebouwaanhorigheidtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Verdieping>
+   a skos:Concept ;
+   skos:prefLabel "Verdieping"@nl ;
+   skos:definition "De gebouwaanhorigheid is een verdieping."@nl ;
+   skos:notation "Verdieping"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+<https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Afdak>
+   a skos:Concept ;
+   skos:prefLabel "Afdak"@nl ;
+   skos:definition "De gebouwaanhorigheid is een afdak."@nl ;
+   skos:notation "Afdak"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Loopbrug>
+   a skos:Concept ;
+   skos:prefLabel "Loopbrug"@nl ;
+   skos:definition "De gebouwaanhorigheid is een loopbrug."@nl ;
+   skos:notation "Loopbrug"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Trap>
+   a skos:Concept ;
+   skos:prefLabel "Trap"@nl ;
+   skos:definition "De gebouwaanhorigheid is een trap."@nl ;
+   skos:notation "Trap"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/ZichtbareOnderkeldering>
+   a skos:Concept ;
+   skos:prefLabel "Zichtbare Onderkeldering"@nl ;
+   skos:definition "De gebouwaanhorigheid is een zichtbare onderkeldering."@nl ;
+   skos:notation "Zichtbare Onderkeldering"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/IngezonkenGaragetoegang>
+   a skos:Concept ;
+   skos:prefLabel "Ingezonken Garagetoegang"@nl ;
+   skos:definition "De gebouwaanhorigheid is een ingezonken garagetoegang."@nl ;
+   skos:notation "Ingezonken Garagetoegang"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Uitbreiding>
+   a skos:Concept ;
+   skos:prefLabel "Uitbreiding"@nl ;
+   skos:definition "De gebouwaanhorigheid is een uitbreiding."@nl ;
+   skos:notation "Uitbreiding"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
+
+  <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/VerhevenGaragetoegang>
+   a skos:Concept ;
+   skos:prefLabel "Verheven Garagetoegang"@nl ;
+   skos:definition "De gebouwaanhorigheid is een verheven garagetoegang."@nl ;
+   skos:notation "Verheven Garagetoegang"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .

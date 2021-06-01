@@ -1,0 +1,27 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Vormtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de vorm van het kunstwerk."@nl ;
+   skos:prefLabel "Vormtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Vormtype/Enkelvoudig>
+   a skos:Concept ;
+   skos:prefLabel "Enkelvoudig"@nl ;
+   skos:definition "Het kunstwerk is enkelvoudig."@nl ;
+   skos:notation "Enkelvoudig"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Vormtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Vormtype> .
+
+<https://data.vlaanderen.be/id/concept/Vormtype/Samengesteld>
+   a skos:Concept ;
+   skos:prefLabel "Samengesteld"@nl ;
+   skos:definition "Het kunstwerk is samengesteld."@nl ;
+   skos:notation "Samengesteld"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Vormtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Vormtype> .
+

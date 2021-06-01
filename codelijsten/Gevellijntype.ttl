@@ -1,0 +1,90 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Gevellijntype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de gevellijn."@nl ;
+   skos:prefLabel "Gevellijntype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/Terrestrisch>
+   a skos:Concept ;
+   skos:prefLabel "Terrestrische gevellijn"@nl ;
+   skos:definition "Het is een terrestrische gevellijn."@nl ;
+   skos:notation "Terrestrische gevellijn"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/FotogramDakoversteekTerugzetting>
+   a skos:Concept ;
+   skos:prefLabel "Fotogram van dakoversteek met terugzetting"@nl ;
+   skos:definition "Het is een fotogram van de dakoversteek met terugzetting."@nl ;
+   skos:notation "Fotogram van dakoversteek met terugzetting"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/FotogramDakrand>
+   a skos:Concept ;
+   skos:prefLabel "Fotogram van de dakrand"@nl ;
+   skos:definition "Het is een fotogram van de dakrand."@nl ;
+   skos:notation "Fotogram van de dakrand"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/FotogramDakoversteek>
+   a skos:Concept ;
+   skos:prefLabel "Fotogram van de dakoversteek"@nl ;
+   skos:definition "Het is een fotogram van de dakoversteek."@nl ;
+   skos:notation "Fotogram van de dakoversteek"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/GerecupereerdeGevellijn>
+   a skos:Concept ;
+   skos:prefLabel "Gerecupereerde gevellijn uit bestaand GBK"@nl ;
+   skos:definition "Het is een gerecupereerde gevellijn uit het bestaand GBK."@nl ;
+   skos:notation "Gerecupereerde gevellijn uit bestaant GBK"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/GeconstrueerdeGevellijn>
+   a skos:Concept ;
+   skos:prefLabel "Gereconstrueerde Gevellijn"@nl ;
+   skos:definition "Het is een gereconstrueerde gevellijn."@nl ;
+   skos:notation "Gereconstrueerde Gevellijn"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/NietDuurzameGemeneGevellijn>
+   a skos:Concept ;
+   skos:prefLabel "Niet duurzame gemene gevellijn"@nl ;
+   skos:definition "Het is een niet duurzame gemene gevellijn."@nl ;
+   skos:notation "Niet duurzame gemene gevellijn"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/KadastraleGevellijn>
+   a skos:Concept ;
+   skos:prefLabel "Kadastrale Gevellijn"@nl ;
+   skos:definition "Het is een kadastrale gevellijn."@nl ;
+   skos:notation "Kadastrale Gevellijn"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/FictieveGevellijn>
+   a skos:Concept ;
+   skos:prefLabel "Fictieve Gevellijn"@nl ;
+   skos:definition "Het is een fictieve gevellijn."@nl ;
+   skos:notation "Fictieve Gevellijn"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/TerrestrischGemetenGevelstuk>
+   a skos:Concept ;
+   skos:prefLabel "Terrestrisch Gemeten Gevelstuk"@nl ;
+   skos:definition "Het is een terrestrisch gemeten gevelstuk."@nl ;
+   skos:notation "Terrestrisch Gemeten Gevelstuk"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
