@@ -1,0 +1,26 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/TransversaleWeginrichtingtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de transversale wegrinrichting."@nl ;
+   skos:prefLabel "TransversaleWeginrichtingtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/TransversaleWeginrichtingtype/BenedenrandVerkeersplateau>
+   a skos:Concept ;
+   skos:prefLabel "Benedenrand Verkeersplateau"@nl ;
+   skos:definition "Een verhoogde verkeersdrempel is een vast inrichtingselement binnen de zone voor snelverkeer van de wegbaan met als doel de normale verkeersstroom te remmen of te compartimenteren."@nl ;
+   skos:notation "Benedenrand Verkeersplateau"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TransversaleWeginrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TransversaleWeginrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/TransversaleWeginrichtingtype/BovenrandVerlaging>
+   a skos:Concept ;
+   skos:prefLabel "Bovenrand Verlaging"@nl ;
+   skos:definition "Een verlaging in de verharde wegbaan is een vast inrichtingselement binnen de zone voor snelverkeer van de wegbaan met als doel de normale verkeersstroom te remmen of te compartimenteren."@nl ;
+   skos:notation "Bovenrand Verlaging"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/TransversaleWeginrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/TransversaleWeginrichtingtype> .

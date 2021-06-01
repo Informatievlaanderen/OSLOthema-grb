@@ -1,0 +1,50 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Wegknooptype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de wegknoop."@nl ;
+   skos:prefLabel "Wegknooptype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Wegknooptype/EchteKnoop>
+   a skos:Concept ;
+   skos:prefLabel "Echte knoop"@nl ;
+   skos:definition "Een echte knoop is een wegknoop waarin meer dan twee wegverbindingen samenkomen. In principe is uitwisseling van verkeer op een echte knoop mogelijk tussen de verschillende wegverbindingen die erop aansluiten."@nl ;
+   skos:notation "Echte knoop"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> .
+
+<https://data.vlaanderen.be/id/concept/Wegknooptype/Schijnknoop>
+   a skos:Concept ;
+   skos:prefLabel "Schijnknoop"@nl ;
+   skos:definition "Een schijnknoop verbindt steeds precies twee wegverbindingen en komt voor op de plaats waar er een verandering van één van de wegkenmerken optreedt. Een schijnknoop komt tevens voor waar een wegverbinding de grens van de kanteringszone overschrijdt."@nl ;
+   skos:notation "Schijnknoop"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> .
+
+<https://data.vlaanderen.be/id/concept/Wegknooptype/Eindknoop>
+   a skos:Concept ;
+   skos:prefLabel "Eindknoop"@nl ;
+   skos:definition "Een eindknoop wordt opgenomen waar een wegverbinding eindigt zonder dat er een andere wegverbinding op aansluit."@nl ;
+   skos:notation "Eindknoop"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> .
+
+<https://data.vlaanderen.be/id/concept/Wegknooptype/Minirotonde>
+   a skos:Concept ;
+   skos:prefLabel "Minirotonde"@nl ;
+   skos:definition "Een minirotonde wordt opgenomen ter hoogte van een kruispunt dat zich in de realiteit voordoet als een rotonde maar niet voldoet aan de geometrische specificaties om opgenomen te worden als een echte rotonde (ring-vormige geometrie)."@nl ;
+   skos:notation "Minirotonde"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> .
+
+<https://data.vlaanderen.be/id/concept/Wegknooptype/Keerlusknoop>
+   a skos:Concept ;
+   skos:prefLabel "Keerlusknoop"@nl ;
+   skos:definition "Een keerlusknoop wordt opgenomen om te voorkomen dat een wegverbinding dezelfde begin- en eindknoop heeft."@nl ;
+   skos:notation "Keerlusknoop"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegknooptype> .

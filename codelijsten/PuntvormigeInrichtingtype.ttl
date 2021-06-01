@@ -1,0 +1,50 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de vorm van de puntvormige inrichting."@nl ;
+   skos:prefLabel "PuntvormigeInrichtingtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/Paal>
+   a skos:Concept ;
+   skos:prefLabel "Paal"@nl ;
+   skos:definition "Palen behorende bij de wegbaan (Wbn), waarvan het contact met het grondoppervlak onvoldoende groot is om hen als lijn, veelhoek of cirkel te karteren."@nl ;
+   skos:notation "Paal"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/Meerpaal>
+   a skos:Concept ;
+   skos:prefLabel "Meerpaal"@nl ;
+   skos:definition "Een paal/bolder, gelegen aan de rand van grote waterpartijen en van een speciale vorm voorzien om een schip vast te kunnen leggen bij het aanmeren. Een meerpaal is in principe hetzelfde als een bolder."@nl ;
+   skos:notation "Meerpaal"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/BovengrondseBrandkraan>
+   a skos:Concept ;
+   skos:prefLabel "Bovengrondse Brandkraan"@nl ;
+   skos:definition "Bovengronds aansluitingspunt aan de waterleiding, gelegen boven het maaiveld waar brandslangen op aangesloten kunnen worden."@nl ;
+   skos:notation "Bovengrondse Brandkraan"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/Grenspaal>
+   a skos:Concept ;
+   skos:prefLabel "Grenspaal"@nl ;
+   skos:definition "Een merkpaal die de grens van de Belgische Staat, de provincies en de gemeenten aanduidt."@nl ;
+   skos:notation "Grenspaal"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/Praatpaal>
+   a skos:Concept ;
+   skos:prefLabel "Praatpaal, paal met publieke telefoon"@nl ;
+   skos:definition "Paal met telefoon langs de openbare weg, zowel een praatpaal als een paal waarop een publieke telefoon is gemonteerd."@nl ;
+   skos:notation "Praatpaal, paal met publieke telefoon"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .

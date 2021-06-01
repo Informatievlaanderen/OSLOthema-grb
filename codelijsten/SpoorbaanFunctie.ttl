@@ -1,0 +1,34 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De functie van de spoorbaan."@nl ;
+   skos:prefLabel "SpoorbaanFunctie"@nl .
+
+<https://data.vlaanderen.be/id/concept/SpoorbaanFunctie/Trein>
+   a skos:Concept ;
+   skos:prefLabel "Trein"@nl ;
+   skos:definition "De spoorbaan is voorbestemd voor treinverkeer."@nl ;
+   skos:notation "Trein"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> .
+
+<https://data.vlaanderen.be/id/concept/SpoorbaanFunctie/Tram>
+   a skos:Concept ;
+   skos:prefLabel "Tram"@nl ;
+   skos:definition "De spoorbaan is voorbestemd voor tramverkeer."@nl ;
+   skos:notation "Tram"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> .
+
+<https://data.vlaanderen.be/id/concept/SpoorbaanFunctie/Metro>
+   a skos:Concept ;
+   skos:prefLabel "Metro"@nl ;
+   skos:definition "De spoorbaan is voorbestemd voor metroverkeer."@nl ;
+   skos:notation "Metro"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> .

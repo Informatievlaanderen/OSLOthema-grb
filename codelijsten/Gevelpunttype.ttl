@@ -1,0 +1,90 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van het gevelpunt."@nl ;
+   skos:prefLabel "Gevelpunttype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/Terrestrisch>
+   a skos:Concept ;
+   skos:prefLabel "Terrestrische gevelpunt"@nl ;
+   skos:definition "Het is een terrestrisch gevelpunt."@nl ;
+   skos:notation "Terrestrische gevelpunt"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/FotogramDakoversteekTerugzetting>
+   a skos:Concept ;
+   skos:prefLabel "Fotogram van gevelpunt van een dakoversteek met terugzetting"@nl ;
+   skos:definition "Het is een fotogram van gevelpunt van een dakoversteek met terugzetting."@nl ;
+   skos:notation "Fotogram van gevelpunt van een dakoversteek met terugzetting"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/FotogramDakrand>
+   a skos:Concept ;
+   skos:prefLabel "Fotogram van gevelpunt van een dakrand"@nl ;
+   skos:definition "Het is een fotogram van gevelpunt van de dakrand."@nl ;
+   skos:notation "Fotogram van gevelpunt van een dakrand"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/FotogramDakoversteek>
+   a skos:Concept ;
+   skos:prefLabel "Fotogram van gevelpunt van een dakoversteek"@nl ;
+   skos:definition "Het is een fotogram van gevelpunt van de dakoversteek."@nl ;
+   skos:notation "Fotogram van gevelpunt van een dakoversteek"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/GerecupereerdGevelpunt>
+   a skos:Concept ;
+   skos:prefLabel "Gerecupereerd Gevelpunt"@nl ;
+   skos:definition "Een gerecupereerd gevelpunt uit bestaand GBK."@nl ;
+   skos:notation "Gerecupereerd Gevelpunt"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/GeconstrueerdGevelpunt>
+   a skos:Concept ;
+   skos:prefLabel "Geconstrueerd Gevelpunt"@nl ;
+   skos:definition "Een geconstrueerd gevelpunt."@nl ;
+   skos:notation "Geconstrueerd Gevelpunt"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/NietDuurzaamGemeenGevelpunt>
+   a skos:Concept ;
+   skos:prefLabel "Niet-duurzaam Gemeen Gevelpunt"@nl ;
+   skos:definition "Het is een niet-duurzaam gemeen gevelpunt."@nl ;
+   skos:notation "Niet-duurzaam Gemeen Gevelpunt"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/KadastraalGevelpunt>
+   a skos:Concept ;
+   skos:prefLabel "Kadastraal Gevelpunt"@nl ;
+   skos:definition "Het is een kadastraal gevelpunt."@nl ;
+   skos:notation "Kadastraal Gevelpunt"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/FictiefGevelpunt>
+   a skos:Concept ;
+   skos:prefLabel "Fictief Gevelpunt"@nl ;
+   skos:definition "Het is een kadastraal gevelpunt."@nl ;
+   skos:notation "Fictief Gevelpunt"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .
+
+<https://data.vlaanderen.be/id/concept/Gevelpunttype/TerrestrischGemetenGevelstuk>
+   a skos:Concept ;
+   skos:prefLabel "Terrestrisch Gemeten Gevelstuk"@nl ;
+   skos:definition "Het is een terrestrisch gemeten gevelstuk."@nl ;
+   skos:notation "Terrestrisch Gemeten Gevelstuk"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevelpunttype> .

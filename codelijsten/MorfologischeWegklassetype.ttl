@@ -1,0 +1,130 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de morfologische wegklasse."@nl ;
+   skos:prefLabel "Morfologische Wegklasse type"@nl .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Autosnelweg>
+   a skos:Concept ;
+   skos:prefLabel "Autosnelweg"@nl ;
+   skos:definition "De wegverbinding is een autosnelweg."@nl ;
+   skos:notation "Autosnelweg"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/WegGescheidenRijbaan>
+   a skos:Concept ;
+   skos:prefLabel "weg met gescheiden rijbanen die geen autosnelweg is"@nl ;
+   skos:definition "De wegverbinding is een weg met gescheiden rijbanen die geen autosnelweg is."@nl ;
+   skos:notation "weg met gescheiden rijbanen die geen autosnelweg is"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/WegEnkeleRijbaan>
+   a skos:Concept ;
+   skos:prefLabel "weg bestaande uit één rijbaan"@nl ;
+   skos:definition "De wegverbinding is een weg bestaande uit één rijbaan."@nl ;
+   skos:notation "weg bestaande uit één rijbaan"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Rotonde>
+   a skos:Concept ;
+   skos:prefLabel "Rotonde"@nl ;
+   skos:definition "De wegverbinding is een Rotonde."@nl ;
+   skos:notation "Rotonde"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/SpecialeVerkeerssituatie>
+   a skos:Concept ;
+   skos:prefLabel "Speciale Verkeerssituatie"@nl ;
+   skos:definition "De wegverbinding is een Speciale Verkeerssituatie."@nl ;
+   skos:notation "Speciale Verkeerssituatie"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Verkeersplein>
+   a skos:Concept ;
+   skos:prefLabel "Verkeersplein"@nl ;
+   skos:definition "De wegverbinding is een verkeersplein."@nl ;
+   skos:notation "Verkeersplein"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Op-AfritNietGelijkgronds>
+   a skos:Concept ;
+   skos:prefLabel "op- of afrit behorende tot een niet-gelijkgrondse verbinding"@nl ;
+   skos:definition "De wegverbinding is een op- of afrit behorende tot een niet-gelijkgrondse verbinding."@nl ;
+   skos:notation "op- of afrit behorende tot een niet-gelijkgrondse verbinding"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Op-AfritGelijkgronds>
+   a skos:Concept ;
+   skos:prefLabel "op- of afrit behorende tot een gelijkgrondse verbinding"@nl ;
+   skos:definition "De wegverbinding is een op- of afrit behorende tot een gelijkgrondse verbinding."@nl ;
+   skos:notation "op- of afrit behorende tot een gelijkgrondse verbinding"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Parallelweg>
+   a skos:Concept ;
+   skos:prefLabel "Parallelweg"@nl ;
+   skos:definition "De wegverbinding is een Parallelweg."@nl ;
+   skos:notation "Parallelweg"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Wandel-Fietsweg>
+   a skos:Concept ;
+   skos:prefLabel "wandel- en/of fietsweg niet toegankelijk voor andere voertuigen"@nl ;
+   skos:definition "De wegverbinding is een wandel- en/of fietsweg niet toegankelijk voor andere voertuigen."@nl ;
+   skos:notation "wandel- en/of fietsweg niet toegankelijk voor andere voertuigen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Tramweg>
+   a skos:Concept ;
+   skos:prefLabel "tramweg niet toegankelijk voor andere voertuigen"@nl ;
+   skos:definition "De wegverbinding is een tramweg niet toegankelijk voor andere voertuigen."@nl ;
+   skos:notation "tramweg niet toegankelijk voor andere voertuigen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Ventweg>
+   a skos:Concept ;
+   skos:prefLabel "Ventweg"@nl ;
+   skos:definition "De wegverbinding is een Ventweg."@nl ;
+   skos:notation "Ventweg"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/In-UitritParking>
+   a skos:Concept ;
+   skos:prefLabel "in- of uitrit van een parking"@nl ;
+   skos:definition "De wegverbinding is een in- of uitrit van een parking."@nl ;
+   skos:notation "in- of uitrit van een parking"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/In-UitritDienst>
+   a skos:Concept ;
+   skos:prefLabel "in- of uitrit van een dienst"@nl ;
+   skos:definition "De wegverbinding is een in- of uitrit van een dienst."@nl ;
+   skos:notation "in- of uitrit van een dienst"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .
+
+<https://data.vlaanderen.be/id/concept/MorfologischeWegklassetype/Dienstweg>
+   a skos:Concept ;
+   skos:prefLabel "Dienstweg"@nl ;
+   skos:definition "De wegverbinding is een Dienstweg."@nl ;
+   skos:notation "Dienstweg"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/MorfologischeWegklassetype> .

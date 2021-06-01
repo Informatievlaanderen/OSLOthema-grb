@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Verdieping>
    a skos:Concept ;
    skos:prefLabel "Verdieping"@nl ;
-   skos:definition "De gebouwaanhorigheid is een verdieping."@nl ;
+   skos:definition "Eerste en hogere verdieping (duurzame constructie, aanleunend en behorend bij een gebouw) die maakt dat de vlakke voorstelling van het gebouw als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Verdieping"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Afdak>
    a skos:Concept ;
    skos:prefLabel "Afdak"@nl ;
-   skos:definition "De gebouwaanhorigheid is een afdak."@nl ;
+   skos:definition "Al dan niet door pijlers ondersteund afdak (duurzame constructie, aanleunend en behorend bij een gebouw) dat maakt dat de vlakke voorstelling van het gebouw aan de grond als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Afdak"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -28,7 +28,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Loopbrug>
    a skos:Concept ;
    skos:prefLabel "Loopbrug"@nl ;
-   skos:definition "De gebouwaanhorigheid is een loopbrug."@nl ;
+   skos:definition "Een al dan niet door pijlers ondersteunde loopbrug (duurzame constructie, aanleunend en behorend bij een gebouw) die maakt dat de vlakke voorstelling van het gebouw aan de grond als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Loopbrug"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -36,7 +36,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Trap>
    a skos:Concept ;
    skos:prefLabel "Trap"@nl ;
-   skos:definition "De gebouwaanhorigheid is een trap."@nl ;
+   skos:definition "Elke trap die de verbinding vormt tussen een straatpeil en het vloerpeil van het aanleunend gebouw als duurzame constructie, en die maakt dat de vlakke voorstelling van het gebouw aan de grond als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Trap"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -44,7 +44,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/ZichtbareOnderkeldering>
    a skos:Concept ;
    skos:prefLabel "Zichtbare Onderkeldering"@nl ;
-   skos:definition "De gebouwaanhorigheid is een zichtbare onderkeldering."@nl ;
+   skos:definition "Zichtbare onderkeldering van een gebouw die maakt dat de vlakke voorstelling van het gebouw aan de grond als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Zichtbare Onderkeldering"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -52,7 +52,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/IngezonkenGaragetoegang>
    a skos:Concept ;
    skos:prefLabel "Ingezonken Garagetoegang"@nl ;
-   skos:definition "De gebouwaanhorigheid is een ingezonken garagetoegang."@nl ;
+   skos:definition "Elke zichtbare en ingezonken garagetoegang (duurzame constructie, behorend bij een gebouw) die maakt dat de vlakke voorstelling van het gebouw aan de grond als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Ingezonken Garagetoegang"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -60,7 +60,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/Uitbreiding>
    a skos:Concept ;
    skos:prefLabel "Uitbreiding"@nl ;
-   skos:definition "De gebouwaanhorigheid is een uitbreiding."@nl ;
+   skos:definition "Het gedeelte van een ‘monolithisch’ blokvormig gebouw dat door een doorgang op maaiveldhoogte wordt gesplitst in twee deelblokken dat niet als gebouw aan de grond (Gbg) of gebouwaanhorigheid (Gba) van het type verdieping wordt gekarteerd."@nl ;
    skos:notation "Uitbreiding"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .
@@ -68,7 +68,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwaanhorigheidtype/VerhevenGaragetoegang>
    a skos:Concept ;
    skos:prefLabel "Verheven Garagetoegang"@nl ;
-   skos:definition "De gebouwaanhorigheid is een verheven garagetoegang."@nl ;
+   skos:definition "Elke zichtbare en verheven garagetoegang (duurzame constructie, behorende bij een gebouw) die maakt dat de vlakke voorstelling van het gebouw aan de grond als gelijkvloerse gevellijn als onvolledig ervaren wordt."@nl ;
    skos:notation "Verheven Garagetoegang"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwaanhorigheidtype> .

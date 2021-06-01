@@ -1,0 +1,34 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Meetmethode>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De methode gebruikt om het putdeksel op te meten."@nl ;
+   skos:prefLabel "Meetmethode"@nl .
+
+<https://data.vlaanderen.be/id/concept/Meetmethode/Terrestrisch>
+   a skos:Concept ;
+   skos:prefLabel "Terrestrisch"@nl ;
+   skos:definition "Het putdeksel is terrestrisch opgemeten."@nl ;
+   skos:notation "Terrestrisch"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> .
+
+<https://data.vlaanderen.be/id/concept/Meetmethode/Fotogrammetrisch>
+   a skos:Concept ;
+   skos:prefLabel "Fotogrammetrisch"@nl ;
+   skos:definition "Het putdeksel is fotogrammetrisch opgemeten."@nl ;
+   skos:notation "Fotogrammetrisch"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> .
+
+<https://data.vlaanderen.be/id/concept/Meetmethode/NietGekend>
+   a skos:Concept ;
+   skos:prefLabel "niet gekend door aanpassing van de GRB-specs"@nl ;
+   skos:definition "Het putdeksel is niet gekend door aanpassing van de GRB-specs."@nl ;
+   skos:notation "niet gekend door aanpassing van de GRB-specs"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> .

@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Overbrugging>
    a skos:Concept ;
    skos:prefLabel "Overbrugging"@nl ;
-   skos:definition "Het kunstwerk is een overbrugging."@nl ;
+   skos:definition "Een overbrugging is een civieltechnische constructie opgetrokken uit duurzame materialen die een vaste verbinding vormt tussen twee tracés van spoor, weg of water waarbij een gedeelte van een weg, waterloop of spoorweg boven het maaiveld gelegen is."@nl ;
    skos:notation "Overbrugging"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/WaterbouwkundigeConstructie>
    a skos:Concept ;
    skos:prefLabel "Waterbouwkundige Constructie"@nl ;
-   skos:definition "Het kunstwerk is een waterbouwkundige constructie."@nl ;
+   skos:definition "Een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak: grote installaties ten behoeve van het waterverkeer."@nl ;
    skos:notation "Waterbouwkundige Constructie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -28,7 +28,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/CultuurhistorischMonument>
    a skos:Concept ;
    skos:prefLabel "Cultuurhistorisch Monument"@nl ;
-   skos:definition "Het kunstwerk is een cultuurhistorisch monument."@nl ;
+   skos:definition "Een cultuurhistorische monument is een zichtbare constructie met historische, esthetische of landschappelijke waarde opgetrokken uit duurzame materialen."@nl ;
    skos:notation "Cultuurhistorisch Monument"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -36,7 +36,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Hoogspanningsmast>
    a skos:Concept ;
    skos:prefLabel "Hoogspanningsmast of openbare TV-mast"@nl ;
-   skos:definition "Het kunstwerk is een hoogspanningmast of openbare TV-mast."@nl ;
+   skos:definition "Een hoogspanningsmast is een kunstwerk bedoeld voor het transport van stroom onder hoge spanning. Een TV-mast is een kunstwerk bedoeld voor de distributie van TV-signalen. Een mast onderscheidt zich van een paal door zijn meervoudige duurzame verankering met de grond (bvb. drievoetige mast, …)."@nl ;
    skos:notation "Hoogspanningsmast of openbare TV-mast"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -44,7 +44,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Pijler>
    a skos:Concept ;
    skos:prefLabel "Pijler"@nl ;
-   skos:definition "Het kunstwerk is een pijler."@nl ;
+   skos:definition "Een pijler is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak bedoeld voor het ondersteunen van civieltechnische constructies zoals gebouwen of bruggen."@nl ;
    skos:notation "Pijler"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -52,7 +52,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Rooster>
    a skos:Concept ;
    skos:prefLabel "Rooster"@nl ;
-   skos:definition "Het kunstwerk is een rooster."@nl ;
+   skos:definition "Een rooster is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen, en zichtbaar aan het aardoppervlak bedoeld voor de ventilatie van ondergrondse ruimtes."@nl ;
    skos:notation "Roosters"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -60,7 +60,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Schoorsteen>
    a skos:Concept ;
    skos:prefLabel "Schoorsteen"@nl ;
-   skos:definition "Het kunstwerk is een schoorsteen."@nl ;
+   skos:definition "Een schoorsteen is een zichtbare constructie opgetrokken uit duurzame materialen bedoeld als rookkanaal in functie van een nabijgelegen stookplaats."@nl ;
    skos:notation "Schoorsteen"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -68,7 +68,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Koeltoren>
    a skos:Concept ;
    skos:prefLabel "Koeltoren"@nl ;
-   skos:definition "Het kunstwerk is een koeltoren."@nl ;
+   skos:definition "Een koeltoren is een zichtbaar gedeelte van een constructie opgetrokken uit duurzame materialen voorzien als rookkanaal in functie van nabijgelegen installaties voor het koelen van proceswater."@nl ;
    skos:notation "Koeltoren"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -76,7 +76,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Silo>
    a skos:Concept ;
    skos:prefLabel "Silo of Opslagtank"@nl ;
-   skos:definition "Het kunstwerk is een silo of opslagtank."@nl ;
+   skos:definition "Een silo of een opslagtank is een grote zichtbare installatie opgetrokken uit duurzame materialen voor opslag en verwerking van bulkmaterialen."@nl ;
    skos:notation "Silo of Opslagtank"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -84,7 +84,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Cabine>
    a skos:Concept ;
    skos:prefLabel "Cabine"@nl ;
-   skos:definition "Het kunstwerk is een cabine."@nl ;
+   skos:definition "Een cabine is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak bedoeld voor de vestiging en bescherming van installaties en transformatieposten, noodzakelijk voor het beheer van elektriciteit- en gasdistributienetten."@nl ;
    skos:notation "Cabine"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -92,7 +92,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Watertoren>
    a skos:Concept ;
    skos:prefLabel "Watertoren"@nl ;
-   skos:definition "Het kunstwerk is een watertoren."@nl ;
+   skos:definition "Een watertoren is een civieltechnische constructie, anders dan gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak, bedoeld voor de opslag en distributie van leidingwater."@nl ;
    skos:notation "Watertoren"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -100,7 +100,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Tunnelmond>
    a skos:Concept ;
    skos:prefLabel "Tunnelmond"@nl ;
-   skos:definition "Het kunstwerk is een tunnelmond."@nl ;
+   skos:definition "Een tunnelmond is een zichtbare constructie uit duurzame materialen bedoeld voor de uitbating van de tunnel (veiligheid, verlichting, verluchting), geïntegreerd in de fundamenten van de tunnel en grenzend aan de wegbaan."@nl ;
    skos:notation "Tunnelmond"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -108,7 +108,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/ChemischeInstallatie>
    a skos:Concept ;
    skos:prefLabel "Chemische Installatie"@nl ;
-   skos:definition "Het kunstwerk is een chemische installatie."@nl ;
+   skos:definition "Een chemische installatie is een zichtbare constructie opgetrokken uit duurzame materialen met een zeer heterogeen karakter dat o.a. de volgende elementen bevat: silo’s, pijpleidingen, schoorsteen, pijlers, rooster, gebouwen,…"@nl ;
    skos:notation "Chemische Installatie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -116,7 +116,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Windturbine>
    a skos:Concept ;
    skos:prefLabel "Nutspaal type windturbine"@nl ;
-   skos:definition "Het kunstwerk is een nutspaal van het type windturbine."@nl ;
+   skos:definition "Een windturbine is een burgerlijke constructie die gebruikt wordt voor de opwekking van elektriciteit. Een windturbine onderscheidt zich van een kleine windturbine door zijn ashoogte (> 15m gemeden vanaf de voet van de winturbine)."@nl ;
    skos:notation "Nutspaal type windturbine"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -124,7 +124,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Golfbreker>
    a skos:Concept ;
    skos:prefLabel "Golfbreker, strandhoofd of lage havendam"@nl ;
-   skos:definition "Het kunstwerk is een golfbreker, strandhoofd of lage havendam."@nl ;
+   skos:definition "Een golfbreker (strandhoofd/lage havendam) is een zichtbare constructie uit duurzame materialen bedoeld voor de inrichting en beheer van de kust."@nl ;
    skos:notation "Golfbreker, strandhoofd of lage havendam"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -132,7 +132,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Havendam>
    a skos:Concept ;
    skos:prefLabel "Havendam"@nl ;
-   skos:definition "Het kunstwerk is een havendam."@nl ;
+   skos:definition "Een havendam is een zichtbare, stenen constructie uit duurzame materialen die zich in het water uitstrekt en dienst doet als golfbreker ter bescherming van de haven en toegangsgeul naar de haven, bedoeld voor de inrichting en beheer van de kust."@nl ;
    skos:notation "Havendam"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .
@@ -140,7 +140,7 @@
 <https://data.vlaanderen.be/id/concept/Kunstwerktype/Staketsel>
    a skos:Concept ;
    skos:prefLabel "Staketsel"@nl ;
-   skos:definition "Het kunstwerk is een staketsel."@nl ;
+   skos:definition "Een staketsel is een zichtbare lange smalle (houten of betonnen) constructie uit duurzame materialen die zich in zee uitstrekt en dienst doet als remmingswerk voor schepen op drift en/of voor recreatieve doeleinden (wandelpromenade, vissers,…)."@nl ;
    skos:notation "Staketsel"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Kunstwerktype> .

@@ -1,0 +1,42 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de longitudinale weginrichting."@nl ;
+   skos:prefLabel "LongitudinaleWeginrichtingtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/VerhoogdeBoordsteen>
+   a skos:Concept ;
+   skos:prefLabel "Verhoogde boord- of kantsteen"@nl ;
+   skos:definition "Boordstenen en kantstenen met als doel de normale verkeersstromen in gescheiden stroken te leiden."@nl ;
+   skos:notation "Verhoogde boord- of kantsteen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/MuurStootband>
+   a skos:Concept ;
+   skos:prefLabel "Muur of stootband"@nl ;
+   skos:definition "Een muur is een permanent, lijnvormig verankerde en rechtopstaande scheiding of grondkering bestaande uit opeengestapeld (min. 2 lagen) metselwerk of beton. Een stootband is een geprefabriceerde betonnen veiligheidsband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afraken. Een keermuur is een muur die in de regel een grondkerende functie vervult. Een kopmuur is een keermuur die een functie vervult in het afwateringssysteem."@nl ;
+   skos:notation "Muur of stootband"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/Vangrail>
+   a skos:Concept ;
+   skos:prefLabel "Vangrail"@nl ;
+   skos:definition "Een vangrail is een constructie-element bestaande uit metalen stroken voor de scheiding en beveiliging van diverse soorten weggebruikers, voornamelijk langs de berm van wegen of als borstwering voor voetgangers."@nl ;
+   skos:notation "Vangrail"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .
+
+<https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/NietAfgeboordeVerhoging>
+   a skos:Concept ;
+   skos:prefLabel "Niet-afgeboorde verhoging"@nl ;
+   skos:definition "Een niet-afgeboorde verhoging is een verhoogde verharde strook die niet is afgeboord met een boord- of kantsteen."@nl ;
+   skos:notation "Niet-afgeboorde verhoging"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .

@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Gebouwtype/hoofdgebouw>
    a skos:Concept ;
    skos:prefLabel "Hoofdgebouw"@nl ;
-   skos:definition "Het gebouw is een hoofdgebouw."@nl ;
+   skos:definition "Een hoofdgebouw is het belangrijkste gebouw(en) aan de grond (Gbg) van een groep van gebouwen aan de grond (Gbg), binnen eenzelfde gebruiksperceel. De aanwezigheid van het huisnummer kan hiervoor een indicatie vormen. Een genummerde cabine die voldoet aan de definitie van een gebouw aan de grond (Gbg) is eveneens een hoofdgebouw."@nl ;
    skos:notation "Hoofdgebouw"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Gebouwtype/Bijgebouw>
    a skos:Concept ;
    skos:prefLabel "Bijgebouw"@nl ;
-   skos:definition "Het gebouw is een bijgebouw."@nl ;
+   skos:definition "Bijgebouwen zijn alle gebouwen die geen hoofdgebouw of gebouw afgezoomd met virtuele gevels zijn. Een bijgebouw kan voorkomen op een gebruiksperceel zonder hoofdgebouw."@nl ;
    skos:notation "Bijgebouw"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .
@@ -28,7 +28,7 @@
   <https://data.vlaanderen.be/id/concept/Gebouwtype/GebouwVirtueleGevels>
    a skos:Concept ;
    skos:prefLabel "Gebouw afgezoomd met virtuele gevels"@nl ;
-   skos:definition "Het is een gebouw afgezoomd met virtuele gevels."@nl ;
+   skos:definition "Een gebouw afgezoomd met virtuele gevelwanden zoals de toegang tot ondergrondse of hangende ruimtes en gebouwen, tribunes,…"@nl ;
    skos:notation "Gebouw afgezoomd met virtuele gevels"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .

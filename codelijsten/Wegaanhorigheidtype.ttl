@@ -1,0 +1,42 @@
+@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:       <http://purl.org/dc/terms/> .
+@prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype>
+   a skos:ConceptScheme ;
+   dct:modified "2021-05-28" ;
+   skos:definition "De aard van de verharding van de weg."@nl ;
+   skos:prefLabel "Wegaanhorigheidtype"@nl .
+
+<https://data.vlaanderen.be/id/concept/Wegaanhorigheidtype/Bushok>
+   a skos:Concept ;
+   skos:prefLabel "Bushok"@nl ;
+   skos:definition "Een bushok is een openbaar inrichtingselement dat onderdak biedt aan reizigers van het openbaar vervoer onder een duidelijke dakconstructie."@nl ;
+   skos:notation "Bushok"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> .
+
+<https://data.vlaanderen.be/id/concept/Wegaanhorigheidtype/Telefooncabine>
+   a skos:Concept ;
+   skos:prefLabel "Telefooncabine"@nl ;
+   skos:definition "Een telefooncabine is een openbare gelegenheid waar men kan telefoneren onder een duidelijke dakconstructie."@nl ;
+   skos:notation "Telefooncabine"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> .
+
+<https://data.vlaanderen.be/id/concept/Wegaanhorigheidtype/OverdekteFietsstalling>
+   a skos:Concept ;
+   skos:prefLabel "Overdekte Fietsstalling"@nl ;
+   skos:definition "Een overdekte fietsenstalling is een openbaar inrichtingselement waar de fiets kan gestald worden onder een duidelijke dakconstructie."@nl ;
+   skos:notation "Overdekte Fietsstalling"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> .
+
+<https://data.vlaanderen.be/id/concept/Wegaanhorigheidtype/Bergplaats>
+   a skos:Concept ;
+   skos:prefLabel "Bergplaats"@nl ;
+   skos:definition "Een bergplaats is een constructie met openbaar karakter en duidelijke dakconstructie die op de wegbaan (Wbn) opgericht werd om onderdak te bieden aan goederen maar niet als zelfstandig gebouw beschouwd kan worden."@nl ;
+   skos:notation "Bergplaats"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegaanhorigheidtype> .
