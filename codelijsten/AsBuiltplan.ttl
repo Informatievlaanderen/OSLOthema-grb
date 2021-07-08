@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/AsBuiltplan/AsBuiltplan>
    a skos:Concept ;
    skos:prefLabel "As-Buitplan"@nl ;
-   skos:definition "De anomalie heeft een as-builtplan."@nl ;
+   skos:definition "In de melding wordt aangegeven dat voor de afwijking een as-builtplan zal worden aangeleverd."@nl ;
    skos:notation "As-Builtplan"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/AsBuiltplan/GeenAsBuiltplan>
    a skos:Concept ;
    skos:prefLabel "Geen As-Builtplan"@nl ;
-   skos:definition "De anomalie heeft geen As-Builtplan."@nl ;
+   skos:definition "In de melding wordt aangegeven dat voor de afwijking geen as-builtplan zal worden aangeleverd."@nl ;
    skos:notation "Geen As-Builtplan"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> .
@@ -28,7 +28,7 @@
   <https://data.vlaanderen.be/id/concept/AsBuiltplan/NietGekend>
    a skos:Concept ;
    skos:prefLabel "Niet gekend"@nl ;
-   skos:definition "Men weet niet of de anomalie al dan niet een As-Builtplan heeft."@nl ;
+   skos:definition "Het is niet gekend of voor de afwijking een as-builtplan zal worden aangeleverd."@nl ;
    skos:notation "Niet gekend"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AsBuiltplan> .

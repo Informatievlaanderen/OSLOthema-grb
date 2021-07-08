@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/Meerpaal>
    a skos:Concept ;
    skos:prefLabel "Meerpaal"@nl ;
-   skos:definition "Een paal/bolder, gelegen aan de rand van grote waterpartijen en van een speciale vorm voorzien om een schip vast te kunnen leggen bij het aanmeren. Een meerpaal is in principe hetzelfde als een bolder."@nl ;
+   skos:definition "Een paal, gelegen aan de rand van grote waterpartijen en van een speciale vorm voorzien om een schip vast te kunnen leggen bij het aanmeren."@nl ;
    skos:notation "Meerpaal"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .
@@ -43,8 +43,8 @@
 
 <https://data.vlaanderen.be/id/concept/PuntvormigeInrichtingtype/Praatpaal>
    a skos:Concept ;
-   skos:prefLabel "Praatpaal, paal met publieke telefoon"@nl ;
-   skos:definition "Paal met telefoon langs de openbare weg, zowel een praatpaal als een paal waarop een publieke telefoon is gemonteerd."@nl ;
-   skos:notation "Praatpaal, paal met publieke telefoon"@nl ;
+   skos:prefLabel "Praatpaal of paal met publieke telefoon"@nl ;
+   skos:definition "Een communicatiepaal is een paal met telefoon langs de openbare weg."@nl ;
+   skos:notation "Praatpaal of paal met publieke telefoon"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/PuntvormigeInrichtingtype> .

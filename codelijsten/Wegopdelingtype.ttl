@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Wegopdelingtype/GrensCirculatiezoneZwakkeWeggebruiker>
    a skos:Concept ;
    skos:prefLabel "Grens Circulatiezone Zwakke Weggebruiker"@nl ;
-   skos:definition "De grens circulatiezone zwakke weggebruiker (Wcz) is de grenslijn van de zone binnen de wegbaan (Wbn) die ontworpen is om het verkeer van snellere verkeersvormen te scheiden van minder snelle weggebruikers zoals voetgangers. De zone is steeds fysiek gescheiden van de rest van de wegbaan (Wbn) en wordt typisch gekenmerkt door een afgeboorde verzakking van de wegverharding naar de hartlijn van het wegbaan (Wbn) toe."@nl ;
+   skos:definition "De grenslijn van de zone binnen de wegbaan die ontworpen is om het verkeer van snellere verkeersvormen te scheiden van minder snelle weggebruikers zoals voetgangers. Deze zone is fysisch van de rijbaan gescheiden door een verhoging (boordsteen)."@nl ;
    skos:notation "Grens Circulatiezone Zwakke Weggebruiker"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegopdelingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegopdelingtype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Wegopdelingtype/GrensOnverhardeZone>
    a skos:Concept ;
    skos:prefLabel "Grens Onverharde Zone"@nl ;
-   skos:definition "De grens van de onverharde zone (Woz) is de grens van het buitenste onverhard gedeelte van de wegbaan (Wbn) dat overeenkomt met de zachte zijberm."@nl ;
+   skos:definition "De grens van het buitenste onverhard gedeelte van de wegbaan dat overeenkomt met de zachte zijberm (buitenberm)."@nl ;
    skos:notation "Grens Onverharde Zone"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegopdelingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegopdelingtype> .
@@ -28,7 +28,7 @@
 <https://data.vlaanderen.be/id/concept/Wegopdelingtype/RandRijbaan>
    a skos:Concept ;
    skos:prefLabel "Rand van de rijbaan"@nl ;
-   skos:definition "De rand van de rijbaan (Wrb) is de rand van het gedeelte van de vlakke verharde wegbaan (Wbn) dat gereserveerd wordt voor tenminste autoverkeer. Hiermee wordt bedoeld dat een verharde strook binnen de wegbaan (Wbn) met minimale breedte van 2.5m dient beschouwd als potentiële rijbaan. De rijbaan bestaat in de regel uit het geheel der verharde rijstroken en het aansluitend gelijkgronds verhard fietspad."@nl ;
+   skos:definition "De rand van het gedeelte van de vlakke verharde wegbaan dat gereserveerd wordt voor ten minste autoverkeer. De rijbaan bestaat in de regel uit het geheel der verharde rijstroken en het aansluitend verhard fietspad."@nl ;
    skos:notation "Rand van de rijbaan"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegopdelingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegopdelingtype> .

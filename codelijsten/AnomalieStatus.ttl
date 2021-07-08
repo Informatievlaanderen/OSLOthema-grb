@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieStatus/Gevalideerd>
    a skos:Concept ;
    skos:prefLabel "Gevalideerd"@nl ;
-   skos:definition "De anomalie is gevalideerd."@nl ;
+   skos:definition "Een melding werd na controle goedgekeurd en opgenomen als anomalie."@nl ;
    skos:notation "Gevalideerd"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .
@@ -20,7 +20,31 @@
 <https://data.vlaanderen.be/id/concept/AnomalieStatus/Toegewezen>
    a skos:Concept ;
    skos:prefLabel "Toegewezen"@nl ;
-   skos:definition "De anomalie is toegewezen."@nl ;
+   skos:definition "Een anomalie werd toegewezen aan een bijhoudingsopdracht."@nl ;
    skos:notation "Toegewezen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieStatus/Opgelost>
+   a skos:Concept ;
+   skos:prefLabel "Opgelost"@nl ;
+   skos:definition "De anomalie werd opgelost."@nl ;
+   skos:notation "Opgelost"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieStatus/Afgewezen>
+   a skos:Concept ;
+   skos:prefLabel "Afgewezen"@nl ;
+   skos:definition "De anomalie werd afgewezen."@nl ;
+   skos:notation "Afgewezen"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .
+
+<https://data.vlaanderen.be/id/concept/AnomalieStatus/Gesloten>
+   a skos:Concept ;
+   skos:prefLabel "Gesloten"@nl ;
+   skos:definition "De anomalie werd gesloten."@nl ;
+   skos:notation "Gesloten"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieStatus> .

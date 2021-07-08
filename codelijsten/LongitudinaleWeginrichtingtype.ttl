@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/VerhoogdeBoordsteen>
    a skos:Concept ;
    skos:prefLabel "Verhoogde boord- of kantsteen"@nl ;
-   skos:definition "Boordstenen en kantstenen met als doel de normale verkeersstromen in gescheiden stroken te leiden."@nl ;
+   skos:definition "Boordstenen en kantstenen binnen de wegbaan met als doel de normale verkeersstromen in gescheiden stroken te leiden.."@nl ;
    skos:notation "Verhoogde boord- of kantsteen"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/MuurStootband>
    a skos:Concept ;
    skos:prefLabel "Muur of stootband"@nl ;
-   skos:definition "Een muur is een permanent, lijnvormig verankerde en rechtopstaande scheiding of grondkering bestaande uit opeengestapeld (min. 2 lagen) metselwerk of beton. Een stootband is een geprefabriceerde betonnen veiligheidsband die over haar gehele lengte op de bodem rust en geplaatst werd om te voorkomen dat voertuigen van de weg afraken. Een keermuur is een muur die in de regel een grondkerende functie vervult. Een kopmuur is een keermuur die een functie vervult in het afwateringssysteem."@nl ;
+   skos:definition "Vaste inrichtingselementen binnen de wegbaan (WBN) met als doel de normale verkeersstromen in gescheiden stroken te leiden . Deze zijn overwegend parallel aan de hartlijn van de wegbaan georienteerd."@nl ;
    skos:notation "Muur of stootband"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .
@@ -36,7 +36,7 @@
 <https://data.vlaanderen.be/id/concept/LongitudinaleWeginrichtingtype/NietAfgeboordeVerhoging>
    a skos:Concept ;
    skos:prefLabel "Niet-afgeboorde verhoging"@nl ;
-   skos:definition "Een niet-afgeboorde verhoging is een verhoogde verharde strook die niet is afgeboord met een boord- of kantsteen."@nl ;
+   skos:definition "Een niet-afgeboorde verhoging is een verhoogde verharde strook binnen de wegbaan die niet is afgeboord met een boord- of kantsteen."@nl ;
    skos:notation "Niet-afgeboorde verhoging"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LongitudinaleWeginrichtingtype> .

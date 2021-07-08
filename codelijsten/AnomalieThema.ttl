@@ -11,7 +11,7 @@
 
 <https://data.vlaanderen.be/id/concept/AnomalieThema/NietGekend>
    a skos:Concept ;
-   skos:prefLabel "Niet gekend"@nl ;
+   skos:prefLabel "Niet gekend door aanpassing van de GRB specificatie"@nl ;
    skos:definition "Niet gekend door aanpassing van de GRB specificaties."@nl ;
    skos:notation "Niet gekend"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Perceel>
    a skos:Concept ;
    skos:prefLabel "Perceel"@nl ;
-   skos:definition "De anomalie heeft te maken met het perceel."@nl ;
+   skos:definition "Een perceel is een grafische voorstelling van de vermoedelijke ligging van het kadastraal perceel of een deel van een kadastraal perceel, waarbij de perceelsgrenzen werden ge´nterpreteerd rekening houdend met de terreinsituatie."@nl ;
    skos:notation "Perceel"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -28,7 +28,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Gebouw>
    a skos:Concept ;
    skos:prefLabel "Gebouw of gebouwaanhorigheid"@nl ;
-   skos:definition "De anomalie heeft te maken met het gebouw of een gebouwaanhorigheid."@nl ;
+   skos:definition "Een gebouw is een duurzaam bouwsel vast met het aardoppervlak verbonden. Het is omsloten door gevelwanden en omsluit een voor mensen toegankelijke ruimte. Een gebouwaanhorigheid is een duurzame constructie, aanleunende en behorende bij een gebouw."@nl ;
    skos:notation "Gebouw of gebouwaanhorigheid"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -36,7 +36,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Kunstwerk>
    a skos:Concept ;
    skos:prefLabel "Kunstwerk of technische constructie"@nl ;
-   skos:definition "De anomalie heeft te maken met een kunstwerk of technische constructie."@nl ;
+   skos:definition "Een kunstwerk is een civieltechnische constructie, niet opgenomen als gebouw, opgetrokken uit duurzame materialen en zichtbaar aan het aardoppervlak."@nl ;
    skos:notation "Kunstwerk of technische constructie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -44,7 +44,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Spoor>
    a skos:Concept ;
    skos:prefLabel "Spoor"@nl ;
-   skos:definition "De anomalie heeft te maken met een spoor."@nl ;
+   skos:definition "Het spoor geeft vorm aan het landoppervlak dat voor transport per spoor is ingericht."@nl ;
    skos:notation "Spoor"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -52,7 +52,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Terrein>
    a skos:Concept ;
    skos:prefLabel "(Openbaar) Terrein"@nl ;
-   skos:definition "De anomalie heeft te maken met een al dan niet openbaar, terrein."@nl ;
+   skos:definition "Een terrein is een surplusgebied dat deel uitmaakt van het openbare domein en grenst aan een weg-, spoor- of watercorridor."@nl ;
    skos:notation "(Openbaar) Terrein"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -60,7 +60,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Weginrichting>
    a skos:Concept ;
    skos:prefLabel "Weginrichting"@nl ;
-   skos:definition "De anomalie heeft te maken met een wegrinrichting."@nl ;
+   skos:definition "Een weginrichting is een ruimtelijk object dat dient voor de inrichting van de openbare weg om het verkeer fysiek te sturen."@nl ;
    skos:notation "Weginrichting"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -68,7 +68,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Water>
    a skos:Concept ;
    skos:prefLabel "Water"@nl ;
-   skos:definition "De anomalie heeft te maken met water."@nl ;
+   skos:definition "Dit omvat een gebied dat rechtstreeks gedomineerd wordt door de tijdelijke of permanente aanwezigheid van oppervlaktewater."@nl ;
    skos:notation "Water"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -76,7 +76,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/WaterloopAs>
    a skos:Concept ;
    skos:prefLabel "As van de waterloop"@nl ;
-   skos:definition "De anomalie heeft te maken met de as van de waterloop."@nl ;
+   skos:definition "Dit is de aslijn van een segment van het VHA waterlopennetwerk van de Vlaamse Hydrografische Atlas."@nl ;
    skos:notation "As van de waterloop"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -84,7 +84,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/WegAs>
    a skos:Concept ;
    skos:prefLabel "As van de Weg"@nl ;
-   skos:definition "De anomalie heeft te maken met de as van de weg."@nl ;
+   skos:definition "De as van de weg is een lijnvormig element dat een deel van de wegcorridor voorstelt en de connectiviteit tussen twee punten in het netwerk beschrijft."@nl ;
    skos:notation "As van de weg"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -92,7 +92,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/VolledigeWeg>
    a skos:Concept ;
    skos:prefLabel "Volledige Weg"@nl ;
-   skos:definition "De anomalie heeft te maken met de volledige weg."@nl ;
+   skos:definition "Afwijking in de GRB-gegevens door een aanleg van een nieuwe weg, volledige heraanleg van een weg of verwijdering van een weg."@nl ;
    skos:notation "Volledige weg"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -100,7 +100,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Straatnaam>
    a skos:Concept ;
    skos:prefLabel "Straatnaam"@nl ;
-   skos:definition "De anomalie heeft te maken met de straatnaam."@nl ;
+   skos:definition "Adrescomponent met de naam die officieel werd toegekend aan een straat (baan, doorgang, plein) of aan een gehucht en waaraan adressen kunnen zijn gekoppeld."@nl ;
    skos:notation "Straatnaam"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .
@@ -108,7 +108,7 @@
 <https://data.vlaanderen.be/id/concept/AnomalieThema/Adres>
    a skos:Concept ;
    skos:prefLabel "Adres"@nl ;
-   skos:definition "De anomalie heeft te maken met het adres."@nl ;
+   skos:definition "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode.."@nl ;
    skos:notation "Adres"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieThema> .

@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/Terrestrisch>
    a skos:Concept ;
    skos:prefLabel "Terrestrische gevellijn"@nl ;
-   skos:definition "Het is een terrestrische gevellijn."@nl ;
+   skos:definition "Gevel van een gebouw die terrestrisch (m.b.v. hoek- en afstandsmetingen) werd opgemeten."@nl ;
    skos:notation "Terrestrische gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/FotogramDakoversteekTerugzetting>
    a skos:Concept ;
    skos:prefLabel "Fotogram van dakoversteek met terugzetting"@nl ;
-   skos:definition "Het is een fotogram van de dakoversteek met terugzetting."@nl ;
+   skos:definition "Gevel van een gebouw die fotogrammetrische werd opgemeten (dakoversteek met terugzetting)."@nl ;
    skos:notation "Fotogram van dakoversteek met terugzetting"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -28,7 +28,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/FotogramDakrand>
    a skos:Concept ;
    skos:prefLabel "Fotogram van de dakrand"@nl ;
-   skos:definition "Het is een fotogram van de dakrand."@nl ;
+   skos:definition "Gevel van een gebouw die fotogrammetrische werd opgemeten (dakrand)."@nl ;
    skos:notation "Fotogram van de dakrand"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -36,7 +36,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/FotogramDakoversteek>
    a skos:Concept ;
    skos:prefLabel "Fotogram van de dakoversteek"@nl ;
-   skos:definition "Het is een fotogram van de dakoversteek."@nl ;
+   skos:definition "Gevel van een gebouw die fotogrammetrische werd opgemeten (dakoversteek)."@nl ;
    skos:notation "Fotogram van de dakoversteek"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -44,7 +44,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/GerecupereerdeGevellijn>
    a skos:Concept ;
    skos:prefLabel "Gerecupereerde gevellijn uit bestaand GBK"@nl ;
-   skos:definition "Het is een gerecupereerde gevellijn uit het bestaand GBK."@nl ;
+   skos:definition "Gevel van een gebouw die gerecupereerd werd uit een bestaande grootschalige basiskaart."@nl ;
    skos:notation "Gerecupereerde gevellijn uit bestaant GBK"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -52,7 +52,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/GeconstrueerdeGevellijn>
    a skos:Concept ;
    skos:prefLabel "Gereconstrueerde Gevellijn"@nl ;
-   skos:definition "Het is een gereconstrueerde gevellijn."@nl ;
+   skos:definition "De constructiegevel is de heterogene gevel van een gebouw die aldus niet over homogene opgemeten hoekpunten beschikt.."@nl ;
    skos:notation "Gereconstrueerde Gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -60,7 +60,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/NietDuurzameGemeneGevellijn>
    a skos:Concept ;
    skos:prefLabel "Niet duurzame gemene gevellijn"@nl ;
-   skos:definition "Het is een niet duurzame gemene gevellijn."@nl ;
+   skos:definition "Een gemene gevel die ter hoogte van zijn raakpunt met het vlak van de terrestrisch gemeten gevel (GVL1 of GVL10) werd opgemeten via de gangbare technieken. Het raakpunt is niet duurzaam en kan niet-ÚÚnduidig worden bepaald."@nl ;
    skos:notation "Niet duurzame gemene gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -68,7 +68,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/KadastraleGevellijn>
    a skos:Concept ;
    skos:prefLabel "Kadastrale Gevellijn"@nl ;
-   skos:definition "Het is een kadastrale gevellijn."@nl ;
+   skos:definition "Een gevellijn die ontstaan is door de afstemming van gebouwen op administratie perceelsgrenzen of door de afstemming van gebouwen op adresgegevens uit CRAB."@nl ;
    skos:notation "Kadastrale Gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -76,7 +76,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/FictieveGevellijn>
    a skos:Concept ;
    skos:prefLabel "Fictieve Gevellijn"@nl ;
-   skos:definition "Het is een fictieve gevellijn."@nl ;
+   skos:definition "Een fictieve gevel is een bij benadering geplaatst lijnstuk dat minstens ÚÚn gevel van een gebouw voorstelt."@nl ;
    skos:notation "Fictieve Gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -84,7 +84,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/TerrestrischGemetenGevelstuk>
    a skos:Concept ;
    skos:prefLabel "Terrestrisch Gemeten Gevelstuk"@nl ;
-   skos:definition "Het is een terrestrisch gemeten gevelstuk."@nl ;
+   skos:definition "Een gevelstuk is een in de context relevante maar onvolledig terrestrisch gekarteerde gevel; wordt begrensd door geen of slechts een van beide gevelhoekpunten. Een of beide gevelhoekpunten niet opgenomen worden (specifieke terreinsituatie)."@nl ;
    skos:notation "Terrestrisch Gemeten Gevelstuk"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .

@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/LokaleBijhoudingtype/AsBuiltplan>
    a skos:Concept ;
    skos:prefLabel "As-Builtplan"@nl ;
-   skos:definition "As-Builtplan"@nl ;
+   skos:definition "Een as-builtplan is een opmetingsplan van de nieuwe toestand na de beeindiging van de werken. Het AGIV verzamelt, controleert en integreert aangeleverde as-builtplannen in het GRB."@nl ;
    skos:notation "As-Builtplan"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LokaleBijhoudingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LokaleBijhoudingtype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/LokaleBijhoudingtype/LokaleBijhoudingTerrein>
    a skos:Concept ;
    skos:prefLabel "Lokale Bijhouding Terrein"@nl ;
-   skos:definition "Lokale Bijhouding Terrein"@nl ;
+   skos:definition "Voor bepaalde (kleinere) vastgestelde afwijkingen wordt een lokale update van de GRB-terreingegevens uitgevoerd."@nl ;
    skos:notation "Lokale Bijhouding Terrein"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/LokaleBijhoudingtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/LokaleBijhoudingtype> .

@@ -1,4 +1,4 @@
-@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
+der@prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct:       <http://purl.org/dc/terms/> .
 @prefix rdfs:      <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -29,6 +29,6 @@
    a skos:Concept ;
    skos:prefLabel "Gebouw afgezoomd met virtuele gevels"@nl ;
    skos:definition "Een gebouw afgezoomd met virtuele gevelwanden zoals de toegang tot ondergrondse of hangende ruimtes en gebouwen, tribunes,…"@nl ;
-   skos:notation "Gebouw afgezoomd met virtuele gevels"@nl ;
+   skos:notation "Gebouw afgezoomd met virtuele gevels."@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gebouwtype> .

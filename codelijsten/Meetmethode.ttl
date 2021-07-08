@@ -11,24 +11,24 @@
 
 <https://data.vlaanderen.be/id/concept/Meetmethode/Terrestrisch>
    a skos:Concept ;
-   skos:prefLabel "Terrestrisch"@nl ;
-   skos:definition "Het putdeksel is terrestrisch opgemeten."@nl ;
-   skos:notation "Terrestrisch"@nl ;
+   skos:prefLabel "Terrestrische opname"@nl ;
+   skos:definition "Putdeksel werd terrestrisch (m.b.v. hoek- en afstandsmetingen) opgemeten."@nl ;
+   skos:notation "Terrestrische opname"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> .
 
 <https://data.vlaanderen.be/id/concept/Meetmethode/Fotogrammetrisch>
    a skos:Concept ;
-   skos:prefLabel "Fotogrammetrisch"@nl ;
-   skos:definition "Het putdeksel is fotogrammetrisch opgemeten."@nl ;
-   skos:notation "Fotogrammetrisch"@nl ;
+   skos:prefLabel "Fotogrammetrische opname"@nl ;
+   skos:definition "Putdeksel werd fotogrammetrisch (m.b.v. orthofotokoppels) opgemeten."@nl ;
+   skos:notation "Fotogrammetrische opname"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> .
 
 <https://data.vlaanderen.be/id/concept/Meetmethode/NietGekend>
    a skos:Concept ;
    skos:prefLabel "niet gekend door aanpassing van de GRB-specs"@nl ;
-   skos:definition "Het putdeksel is niet gekend door aanpassing van de GRB-specs."@nl ;
+   skos:definition "Het kenmerk is niet geinventariseerd omdat dit op het moment van de kartering niet diende opgenomen te worden."@nl ;
    skos:notation "niet gekend door aanpassing van de GRB-specs"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Meetmethode> .

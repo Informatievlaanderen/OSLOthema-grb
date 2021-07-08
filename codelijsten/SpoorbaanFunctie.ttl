@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/SpoorbaanFunctie/Trein>
    a skos:Concept ;
    skos:prefLabel "Trein"@nl ;
-   skos:definition "De spoorbaan is voorbestemd voor treinverkeer."@nl ;
+   skos:definition "De corridor van het transportnetwerk die exclusief voorzien is voor spoorverkeer over langere afstanden (tussen steden)."@nl ;
    skos:notation "Trein"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/SpoorbaanFunctie/Tram>
    a skos:Concept ;
    skos:prefLabel "Tram"@nl ;
-   skos:definition "De spoorbaan is voorbestemd voor tramverkeer."@nl ;
+   skos:definition "De corridor van het transportnetwerk die exclusief voorzien is voor spoorverkeer over korte of middenlange afstanden binnen steden of tot de rand van de stad."@nl ;
    skos:notation "Tram"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> .
@@ -28,7 +28,7 @@
 <https://data.vlaanderen.be/id/concept/SpoorbaanFunctie/Metro>
    a skos:Concept ;
    skos:prefLabel "Metro"@nl ;
-   skos:definition "De spoorbaan is voorbestemd voor metroverkeer."@nl ;
+   skos:definition "De corridor van het transportnetwerk die exclusief voorzien is voor spoorverkeer over korte of middenlange afstanden binnen een stad die hoofdzakelijk ondergronds gaat."@nl ;
    skos:notation "Metro"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/SpoorbaanFunctie> .

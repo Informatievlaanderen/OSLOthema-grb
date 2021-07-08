@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Wegbaantype/Kruispuntzone>
    a skos:Concept ;
    skos:prefLabel "Kruispuntzone"@nl ;
-   skos:definition "Een kruispuntzone komt overeen met een kruispunt"@nl ;
+   skos:definition "Een kruispuntzone komt overeen met een kruispunt (waar minstens drie gelijkwaardige wegsegmenten samenkomen)."@nl ;
    skos:notation "Kruispuntzone"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegbaantype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegbaantype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Wegbaantype/Wegsegment>
    a skos:Concept ;
    skos:prefLabel "Wegsegment"@nl ;
-   skos:definition "Een wegsegment komt overeen met een wegvak."@nl ;
+   skos:definition "Een wegsegment is dat deel van de wegbaan (WBN) dat niet als kruispuntzone gekarteerd werd; er wordt tussen 2 kruispuntzones een wegsegment opgenomen."@nl ;
    skos:notation "Wegsegment"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegbaantype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegbaantype> .

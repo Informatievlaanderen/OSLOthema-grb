@@ -12,7 +12,7 @@
 <https://data.vlaanderen.be/id/concept/Wegverhardgintype/VerhardeWeg>
    a skos:Concept ;
    skos:prefLabel "Verharde weg"@nl ;
-   skos:definition "De weg is verhard."@nl ;
+   skos:definition "Een weg voorzien van een verharding die gecompacteerd en duurzaam verankerd is met het aardoppervlak."@nl ;
    skos:notation "Verharde weg"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegverhardgintype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegverhardgintype> .
@@ -20,7 +20,7 @@
 <https://data.vlaanderen.be/id/concept/Wegverhardgintype/OnverhardeWeg>
    a skos:Concept ;
    skos:prefLabel "Onverharde Weg"@nl ;
-   skos:definition "De weg is onverhard."@nl ;
+   skos:definition "Een weg die niet verhard is of voorzien is van een bedekking die niet gecompacteerd is en op een niet-duurzame wijze verankerd is met het aardoppervlak vb. steenslag of dolomiet."@nl ;
    skos:notation "Onverharde Weg"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Wegverhardgintype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Wegverhardgintype> .
