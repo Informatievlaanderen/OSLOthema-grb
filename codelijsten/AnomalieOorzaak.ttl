@@ -43,7 +43,7 @@
 
 <https://data.vlaanderen.be/id/concept/AnomalieOorzaak/FoutiefAttribuutEnGeometrie>
    a skos:Concept ;
-   skos:prefLabel "Gewijzigd of foutief attribuut en geometrie"@nl ;
+   skos:prefLabel "Gewijzigd/foutief attribuut en geometrie"@nl ;
    skos:definition "Afwijking in de GRB-gegevens door een gewijzigd of foutief attribuut en geometrie van een object."@nl ;
    skos:notation "Gewijzigd/foutief attribuut en geoemtrie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
@@ -51,8 +51,8 @@
 
 <https://data.vlaanderen.be/id/concept/AnomalieOorzaak/Verwijderd>
    a skos:Concept ;
-   skos:prefLabel "Verwijderd of overbodig"@nl ;
+   skos:prefLabel "Verwijderd/overbodig"@nl ;
    skos:definition "Afwijking in de GRB-gegevens door een verdwenen of overbodig object."@nl ;
-   skos:notation "Verwijderd of overbodig"@nl ;
+   skos:notation "Verwijderd/overbodig"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/AnomalieOorzaak> .
