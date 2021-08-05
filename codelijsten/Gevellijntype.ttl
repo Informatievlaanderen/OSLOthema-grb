@@ -76,7 +76,7 @@
 <https://data.vlaanderen.be/id/concept/Gevellijntype/FictieveGevellijn>
    a skos:Concept ;
    skos:prefLabel "Fictieve Gevellijn"@nl ;
-   skos:definition "Een fictieve gevel is een bij benadering geplaatst lijnstuk dat minstens ÚÚn gevel van een gebouw voorstelt."@nl ;
+   skos:definition "Een fictieve gevel is een bij benadering geplaatst lijnstuk dat minstens één gevel van een gebouw voorstelt."@nl ;
    skos:notation "Fictieve Gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
@@ -86,5 +86,13 @@
    skos:prefLabel "Terrestrisch Gemeten Gevelstuk"@nl ;
    skos:definition "Een gevelstuk is een in de context relevante maar onvolledig terrestrisch gekarteerde gevel; wordt begrensd door geen of slechts een van beide gevelhoekpunten. Een of beide gevelhoekpunten niet opgenomen worden (specifieke terreinsituatie)."@nl ;
    skos:notation "Terrestrisch Gemeten Gevelstuk"@nl ;
+   skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
+
+<https://data.vlaanderen.be/id/concept/Gevellijntype/TerrestrischKadastraleGevellijn>
+   a skos:Concept ;
+   skos:prefLabel "Een kadastrale gevellijn die terrestrisch is opgemeten."@nl ;
+   skos:definition "Een terrestrisch kadastrale gevellijn ."@nl ;
+   skos:notation "Terrestrisch Kadastrale Gevellijn"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Gevellijntype> .
