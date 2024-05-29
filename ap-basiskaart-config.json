@@ -1,25 +1,28 @@
 {
-  "naam": "Applicatieprofiel Basiskaart Vlaanderen",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "template-description.md",
-  "specificatiedocument": [
+  "title": "",
+  "category": "",
+  "usage": "",
+  "status": "",
+  "descriptionFileName": "",
+  "responsibleOrganisation": [
     {
-      "naam": "GeoDCAT-AP Vlaanderen",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/BasiskaartVlaanderen/"
+      "name": "",
+      "resourceReference": ""
     }
   ],
-  "documentatie": [],
-  "charter": [],
-  "verslagen": [],
-  "presentaties": [],
-  "functioneel_toepassingsgebied": "TBD",
-  "organisatorisch_werkingsgebied": "TBD",
-  "datum_van_aanmelding": "TBD",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD"
+  "publicationDate": "",
+  "specificationDocuments": [],
+  "documentation": [],
+  "reports": [],
+  "charter": {
+    "name": "",
+    "resourceReference": ""
+  },
+  "presentations": [],
+  "dateOfRegistration": "",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
 }
+
