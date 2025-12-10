@@ -15,7 +15,7 @@
    skos:definition "Een terrein voorzien van een verharding die gecompacteerd en duurzaam verankerd is met het aardoppervlak."@nl ;
    skos:notation "Verhard"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking/OnverhardNietBegroeid>
    a skos:Concept ;
@@ -23,7 +23,7 @@
    skos:definition "Een terrein die niet voorzien is van een verharding of die voorzien is van een bedekking die niet gecompacteerd is en op een niet-duurzame wijze verankerd is met het aardoppervlak vb. steenslag of dolomiet."@nl ;
    skos:notation "Onverhard en niet begroeid"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking/Gras>
    a skos:Concept ;
@@ -31,7 +31,7 @@
    skos:definition "Een terrein voorzien van  een permanente grassige vegetatie."@nl ;
    skos:notation "Gras"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking/KruidachtigeVegetatie>
    a skos:Concept ;
@@ -39,7 +39,7 @@
    skos:definition "Een terrein voorzien van een permanent lage begroeiing (<2m hoog)."@nl ;
    skos:notation "Kruidachtige vegetatie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking/HoutachtigeVegetatie>
    a skos:Concept ;
@@ -47,7 +47,7 @@
    skos:definition "Een terrein voorzien van een permanent hoge begroeiing (>2m hoog)."@nl ;
    skos:notation "Houtachtige vegetatie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking/GemengdeVegetatie>
    a skos:Concept ;
@@ -55,4 +55,4 @@
    skos:definition "Een terrein voorzien van een verschillende soorten vegetatie."@nl ;
    skos:notation "Gemengde vegetatie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodembedekking> .
