@@ -364,7 +364,7 @@
 <https://data.vlaanderen.be/id/concept/ThemaVerduidelijking/NietAfgeboordeVerhoging>
    a skos:Concept ;
    skos:prefLabel "Niet Afgeboorde Verhoging"@nl ;
-   skos:definition "Een niet-afgeboorde verhoging is een verhoogde verharde strook binnen de wegbaan die niet is afgeboord met een boord- of kantsteen.
+   skos:definition "Een niet-afgeboorde verhoging is een verhoogde verharde strook binnen de wegbaan die niet is afgeboord met een boord- of kantsteen."@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/ThemaVerduidelijking> ;
    skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/ThemaVerduidelijking> .
 
