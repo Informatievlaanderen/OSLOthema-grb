@@ -15,7 +15,7 @@
    skos:definition "Terrein gebruikt voor verkeersdoeleinden (parking, over- in en uitstapplaats)."@nl ;
    skos:notation "Verkeer"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik/IngerichtGroenRecreatie>
    a skos:Concept ;
@@ -23,7 +23,7 @@
    skos:definition "Terrein gebruikt als ingericht groen en/of voor recreatie (park, sportcomplex, groenvoorziening, beplanting, ...)."@nl ;
    skos:notation "Ingericht groen en recreatie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik/Natuur>
    a skos:Concept ;
@@ -31,7 +31,7 @@
    skos:definition "Terrein met als hoofdgebruik natuur (rots, strand, duin, beschermd groen)."@nl ;
    skos:notation "Natuur"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik/Militair>
    a skos:Concept ;
@@ -39,7 +39,7 @@
    skos:definition "Terrein gebruikt voor militaire doeleinden."@nl ;
    skos:notation "Militair"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik/BraakliggendRuigte>
    a skos:Concept ;
@@ -47,7 +47,7 @@
    skos:definition "Terrein heeft geen specifiek gebruik."@nl ;
    skos:notation "Braakliggend, ruigte"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik/BurgerlijkCultureel>
    a skos:Concept ;
@@ -55,7 +55,7 @@
    skos:definition "Terrein gebruikt voor burgerlijke en/of culturele doeleinden (archeologische site, begraafplaats, ....)."@nl ;
    skos:notation "Burgerlijk - cultureel"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
 
 <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik/Exploitatie>
    a skos:Concept ;
@@ -63,4 +63,4 @@
    skos:definition "Terrein gebruikt voor exploitatie (opslagzone, stortplaats, groeve, ...)."@nl ;
    skos:notation "Exploitatie"@nl ;
    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> ;
-   skos:inScheme https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
+   skos:inScheme <https://data.vlaanderen.be/id/conceptscheme/Bodemgebruik> .
